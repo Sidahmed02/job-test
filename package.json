@@ -12,8 +12,18 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.1.0",
+    "@mui/material": "^5.1.0",
+    "@mui/styles": "^5.1.0",
+    "axios": "^0.24.0",
+    "history": "^5.1.0",
+    "moment": "^2.29.1",
     "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "react-custom-scrollbars-2": "^4.4.0",
+    "react-dom": "^16.3.1",
+    "react-router-dom": "^6.0.2"
   },
   "devDependencies": {
     "babel-core": "6.26.*",
