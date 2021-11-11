@@ -12,23 +12,10 @@ import ArchiveIcon from "@mui/icons-material/Archive";
 import Badge from "@mui/material/Badge";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import { blue } from "@mui/material/colors";
-import MenuIcon from "@mui/icons-material/Menu";
-import Fab from "@mui/material/Fab";
-import { styled } from "@mui/material/styles";
 
 //internal imports
 import { callsContext } from "../shared/context/calls-context";
 import Header from "../Header.jsx";
-
-//buttom menu button style
-const StyledFab = styled(Fab)({
-  position: "absolute",
-  zIndex: 1,
-  top: -30,
-  left: 0,
-  right: 0,
-  margin: "0 auto"
-});
 
 const useStyles = makeStyles(theme => {
   return {
@@ -113,15 +100,6 @@ const Layout = () => {
             >
               <PhoneIcon fontSize="large" />
             </Badge>
-          </Grid>
-          <Grid item xs={4}>
-            <StyledFab
-              color="secondary"
-              aria-label="add"
-              sx={{ top: "auto", bottom: 330 }}
-            >
-              <MenuIcon fontSize="medium" />
-            </StyledFab>
           </Grid>
         </Grid>
       </Box>
